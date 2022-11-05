@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="1.css">
+    <title>CPU SCHEDULING</title>
+</head>
+
+<body>
+    <!-- <------header------->
+    <header>
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+            <div class="container-fluid">
+               <strong> <a class="navbar-brand" href="#">Algorithms</a></strong>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+                    aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+              
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#p3">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#bottom">Contact</a>
+                        </li>
+
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="a">
+
+
+        <main class="px-3" id="p3">
+            <h1>
+                <center>CPU SCHEDULING ALGORITHHMS</center>
+            </h1>
+            <p class="lead">There are many different algorithms for scheduling computer programs, with different
+                advantages and disadvantages. In all cases, we want to make sure that each program gets a fair
+                amount of processor time, so that all of the programs have a chance to run and complete. We also
+                want to make sure that we make the best use of our computing resources: for example, we don’t want a
+                program to be blocking the use of the CPU while it waits for a file to be slowly read into RAM from
+                a hard disk.
+
+                Here are a few common scheduling algorithms.</p>
+
+        </main>
+        <div class="container marketing">
+
+            <!-- Three columns of text below the carousel -->
+            <div class="row">
+                <div class="col-lg-4">
+                    <img src="a.avif" class="image1 bd-placeholder-img rounded-circle">
+
+                    <h2>First Come First Serve</h2>
+                    <p>First Come First Serve (FCFS) is an algorithm that automatically executes queued requests and
+                        processes in order of their arrival.</p>
+                    <p><a class="btn btn-secondary" href="fcfs.html">View details »</a></p>
+                </div><!-- /.col-lg-4 -->
+                <div class="col-lg-4">
+                    <img src="b.jpg" class="image1 bd-placeholder-img rounded-circle">
+
+                    <h2>Shortest Job First</h2>
+                    <p>Shortest Job First (SJF) is an algorithm in which the process having the smallest execution
+                        time is chosen for the next execution. </p>
+                    <p><a class="btn btn-secondary" href="sjf.html">View details »</a></p>
+                </div><!-- /.col-lg-4 -->
+                <div class="col-lg-4">
+                    <img src="c.jfif" class="image1 bd-placeholder-img rounded-circle">
+
+                    <h2>Longest Job First</h2>
+                    <p>Longest Job First (LJF) CPU is an algorithm in which CPU is assigned to the process having
+                        largest burst time</p>
+                    <p><a class="btn btn-secondary" href="ljf.html">View details »</a></p>
+                </div><!-- /.col-lg-4 -->
+            </div><!-- /.row -->
+            <div class="row">
+                <div class="col-lg-4">
+                    <img src="d.webp" class="image1 bd-placeholder-img rounded-circle">
+
+                    <h2>Priority Non-Preemptive</h2>
+                    <p>Priority Scheduling is a method of scheduling processes that is based on priority. In this
+                        algorithm, the scheduler selects the tasks to work as per the priority.</p>
+                    <p><a class="btn btn-secondary" href="non-preemptive.html">View details »</a></p>
+                </div><!-- /.col-lg-4 -->
+                <div class="col-lg-4">
+                    <img src="e.jfif" class="image1 bd-placeholder-img rounded-circle">
+
+                    <h2>Prority Preemptive</h2>
+                    <p> In this type of scheduling the processes which are present in ready queue are compared and
+                        the process with highest priority is selected for execution.</p>
+                    <p><a class="btn btn-secondary" href="preemptive.html">View details »</a></p>
+                </div><!-- /.col-lg-4 -->
+                <div class="col-lg-4">
+                    <img src="f.jfif" class="image1 bd-placeholder-img rounded-circle">
+
+                    <h2>Round Robin</h2>
+                    <p>Round-robin Scheduling Round-robin scheduling allocates each task an equal share of the CPU
+                        time. </p>
+                    <p><a class="btn btn-secondary" href="rr.html">View details »</a></p>
+                </div><!-- /.col-lg-4 -->
+            </div>
+            <div class="row">
+                <div class="col-lg-4">
+                    <img src="g.webp" class="image1 bd-placeholder-img rounded-circle">
+
+                    <h2>Longest Remaining time First</h2>
+                    <p>The Longest Remaining time First(LRTF) scheduling is the preemptive version of Longest Job
+                        First(LJF) scheduling.</p>
+                    <p><a class="btn btn-secondary" href="lrtf.html">View details »</a></p>
+                </div><!-- /.col-lg-4 -->
+                <div class="col-lg-4">
+                    <img src="h.jpg" class="image1 bd-placeholder-img rounded-circle">
+
+                    <h2>Shortest Remaining Time First</h2>
+                    <p>his Algorithm is the preemptive version of SJF scheduling. In SRTF, the execution of the
+                        process can be stopped after certain amount of time</p>
+                    <p><a class="btn btn-secondary" href="srtf.html">View details »</a></p>
+                </div><!-- /.col-lg-4 -->
+
+            </div>
+        </div>
+    </div>
+    
+    <footer class="foot1" id="bottom">
+        <div class="col-md-4 d-flex ">
+          
+          <span class="mb-3 mb-md-0 text-muted">© 2022 Company, Inc</span>
+        
+    
+        <ul class="nav col-md-4 justify-content-center list-unstyled d-flex">
+          <li class="ms-3 p1" ><a class="text-muted" href="#"><img src="twitter.png" width="24" height="24"></li>
+          <li class="ms-3 p1"><a class="text-muted" href="#"><img src="instagram.jfif" width="24" height="24"></li>
+          <li class="ms-3 p1"><a class="text-muted" href="#"><img src="fb.png" width="24" height="24"></a></li>
+        </ul>
+        
+        <a href="#top" id="a1">back to top</a>
+
+    </div>
+      </footer>
+    
+      
+
+
+        <!-- Optional JavaScript; choose one of the two! -->
+
+        <!-- Option 1: Bootstrap Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+            crossorigin="anonymous"></script>
+
+        <!-- Option 2: Separate Popper and Bootstrap JS -->
+        <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>
